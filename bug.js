@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Linking` API to open a URL in a different app.  Sometimes, the URL doesn't open, and no error is thrown.  The app simply appears to ignore the `Linking.openURL` call. This is particularly problematic because debugging is difficult without error messages.
